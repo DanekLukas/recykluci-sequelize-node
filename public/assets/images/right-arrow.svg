@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="20.184591mm"
+   height="153.854mm"
+   viewBox="0 0 20.184591 153.854"
+   version="1.1"
+   id="svg160"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="right-arrow.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview162"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.0933404"
+     inkscape:cx="-248.77888"
+     inkscape:cy="188.41341"
+     inkscape:window-width="1920"
+     inkscape:window-height="1034"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs157" />
+  <g
+     inkscape:label="Vrstva 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-71.553003,-33.704936)">
+    <g
+       id="g2487">
+      <rect
+         style="fill:#ffffff;fill-rule:evenodd;stroke-width:0.268801;-inkscape-stroke:none;stop-color:#000000"
+         id="rect2321"
+         width="5.231492"
+         height="78.366821"
+         x="65.001427"
+         y="34.335781"
+         transform="matrix(1,0,0.190809,0.98162718,0,0)" />
+      <rect
+         style="fill:#ffffff;fill-rule:evenodd;stroke-width:0.268801;-inkscape-stroke:none;stop-color:#000000"
+         id="rect2321-6"
+         width="5.231492"
+         height="78.366821"
+         x="108.01077"
+         y="-191.06943"
+         transform="matrix(1,0,0.190809,-0.98162718,0,0)" />
+    </g>
+    <g
+       id="g2033">
+      <rect
+         style="fill:#000000;fill-rule:evenodd;stroke-width:0.267048;-inkscape-stroke:none;stop-color:#000000"
+         id="rect1735"
+         width="3.3192115"
+         height="77.700569"
+         x="65.919495"
+         y="35.002033"
+         transform="matrix(1,0,0.190809,0.98162718,0,0)" />
+      <rect
+         style="fill:#000000;fill-rule:evenodd;stroke-width:0.267048;-inkscape-stroke:none;stop-color:#000000"
+         id="rect1735-2"
+         width="3.3192115"
+         height="77.700569"
+         x="108.92884"
+         y="-190.40317"
+         transform="matrix(1,0,0.190809,-0.98162718,0,0)" />
+    </g>
+  </g>
+</svg>

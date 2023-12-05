@@ -1,0 +1,14 @@
+      imageName: {
+        type: DataTypes.VIRTUAL,
+        get() {
+          const mime = this.mime?.split('/',2);
+          if((mime || []).length<2) return '';
+          const name = this.name?.split('.');
+          if((name || []).length<2) return '';
+          name![name!.length-1] = mime![1];
+          return `${this.id}_${this.width}_${this.height}_${name!.join('.')}`;
+        },
+        set(value) {
+          throw new Error('Do not try to set the `fullName` value!');
+        }
+      }

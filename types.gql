@@ -1,0 +1,124 @@
+type Basket {
+  id: Int!
+  date: Date
+  data_id: Int
+  session_id: String
+  datum: Data
+}
+
+type Category {
+  id: Int!
+  name: String
+  safename: String
+  sort: Int
+  data: [Data]
+}
+
+type Data {
+  id: Int!
+  category_id: Int
+  user_id: Int
+  created: Date
+  name: String
+  safename: String
+  text: String
+  price: Int
+  delivery: Int
+  size_id: Int
+  category: Category
+  baskets: [Basket]
+  homepages: [Homepage]
+  sells_items: [SellsItem]
+  id_image: Image
+  size: Size
+  user: User
+}
+
+type Delivery {
+  id: Int!
+  name: String
+  type: Int
+  valid_from: Date
+  valid_to: Date
+  price: Int
+  cod: Int
+  inc: Int
+  size_id: Int
+  sells: [Sells]
+  size: Size
+}
+
+type Homepage {
+  id: Int!
+  data_id: Int
+  sort: Int
+  datum: Data
+}
+
+type Image {
+  id: Int!
+  data_id: Int
+  name: String
+  mime: String
+  width: Int
+  height: Int
+  imageName: undefined
+  datum: Data
+}
+
+type Role {
+  id: Int!
+  name: String
+}
+
+type Sells {
+  id: Int!
+  user_id: Int
+  date: Date
+  vs: Int
+  delivery_id: Int
+  delivery_price: Int
+  price: Int
+  done: Boolean
+  delivery: Delivery
+  sells_items: [SellsItem]
+}
+
+type SellsItem {
+  id: Int!
+  data_id: Int
+  sells_id: Int
+  datum: Data
+  sell: Sells
+}
+
+type Size {
+  id: Int!
+  name: String
+  data: [Data]
+  deliveries: [Delivery]
+}
+
+type Text {
+  id: Int!
+  name: String
+  text: String
+}
+
+type User {
+  id: Int!
+  name: String
+  password: String
+  role_id: Int
+  first_name: String
+  last_name: String
+  street: String
+  city: String
+  code: String
+  country: String
+  email: String
+  ip: Int
+  phone: String
+  data: [Data]
+}
+

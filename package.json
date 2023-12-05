@@ -1,0 +1,39 @@
+{
+  "name": "recykluci.node",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./src/index.ts",
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "compile": "tsc",
+    "start": "npm run compile && node ./dist/index.js",
+    "production-build": "esbuild src/index.ts --bundle --platform=node --external:pg-hstore --outfile=./dist/index.cjs"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.9.5",
+    "@img/sharp-linux-x64": "^0.33.0",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "graphql": "^16.8.1",
+    "graphql-scalars": "^1.22.4",
+    "graphql-subscriptions": "^2.0.0",
+    "graphql-tag": "^2.12.6",
+    "graphql-upload-ts": "^2.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.6.5",
+    "redis": "^4.6.11",
+    "sequelize": "^6.35.1",
+    "sequelize-cli": "^6.6.2",
+    "sharp": "^0.33.0"
+  }
+}
